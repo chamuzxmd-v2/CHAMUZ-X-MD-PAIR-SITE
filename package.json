@@ -1,0 +1,27 @@
+{
+  "name": "CHAMUZ-X-MD",
+  "version": "1.0.0",
+  "description": "CHAMUZ X MD - WHATSAPP PAIR CODE GENARATOR",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build step required\""
+  },
+  "author": "MMT",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "awesome-phonenumber": "^7.6.0",
+    "body-parser": "^2.2.2",
+    "express": "^4.18.2",
+    "megajs": "^1.3.9",
+    "phone": "^3.1.55",
+    "pino": "^10.1.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
